@@ -11,10 +11,19 @@ category: Web
 extra-source-files:
   - README.md
 
+ghc-options:
+  - -O2
+  - -Wall
+
 dependencies:
   - base >= 4.7 && < 5
   - time
   - logict
+  - wai
+  - warp
+  - http-types
+  - bytestring
+  - aeson
 
 executables:
   exam-scheduler:

@@ -5,3 +5,6 @@ package = "stack"
 
 [[commands]]
 package = "ghc"
+
+[[commands]]
+package = "tmux"
