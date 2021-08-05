@@ -1,0 +1,4 @@
+# https://numtide.github.io/devshell
+
+[[commands]]
+package = "stack"
