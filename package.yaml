@@ -1,20 +1,22 @@
-name:                exam-scheduler
-version:             0.1.0.0
+name: exam-scheduler
+version: 0.1.0.0
 #synopsis:
 #description:
-homepage:            https://github.com/githubuser/exam-scheduler#readme
-license:             BSD3
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2021 Author name here
-category:            Web
+homepage: https://github.com/githubuser/exam-scheduler#readme
+license: BSD3
+author: Author name here
+maintainer: example@example.com
+copyright: 2021 Author name here
+category: Web
 extra-source-files:
-- README.md
+  - README.md
 
 dependencies:
   - base >= 4.7 && < 5
+  - time
+  - logict
 
 executables:
   exam-scheduler:
-    source-dirs:      src
-    main:             Main.hs
+    source-dirs: src
+    main: Main.hs
