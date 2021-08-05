@@ -2,3 +2,6 @@
 
 [[commands]]
 package = "stack"
+
+[[commands]]
+package = "ghc"
